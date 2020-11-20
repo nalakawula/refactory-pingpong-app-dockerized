@@ -60,11 +60,9 @@ It's will print
 We can `curl` the url:
 
 ```sh
-curl 192.168.49.2:30412
-```
-
-The output is:
-
-```sh
+curl http://192.168.49.2:30412
 {"data":"ok"}
+
+curl http://192.168.49.2:30412/ping
+{"data":"pong"}
 ```
